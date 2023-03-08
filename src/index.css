@@ -1,13 +1,250 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --main-color: #42a5f4;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Cairo", sans-serif !important;
+  font-weight: 600 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 5000px;
+}
+
+/* NavBar */
+
+.navbar {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: transparent;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+
+.contact_us_btn {
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  border-radius: 33px;
+  padding: 10px 30px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.contact_us_btn:hover {
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 33px;
+  color: #fff;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    margin-right: 0;
+  }
+
+  .contact_us_btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Hero */
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 125px;
+}
+
+.hero_p {
+  color: rgba(0, 0, 0, 0.55);
+  margin-bottom: 30px;
+}
+
+.hero_btn {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 33px;
+  padding: 10px 30px;
+  font-weight: 700;
+  box-shadow: 0px 15px 37px 3px rgba(66, 165, 244, 0.66);
+  transition: 0.2s;
+}
+
+.hero_btn:hover {
+  box-shadow: 0px 0px 0px 0px rgba(66, 165, 244, 0.66);
+  color: #fff;
+}
+
+.hero h1 {
+  font-weight: 700;
+}
+
+.hero div img {
+  max-width: 100%;
+}
+.hero div {
+  width: 50%;
+}
+
+* {
+  /* transition: 0s !important; */
+}
+
+@media (max-width: 768px) {
+  .hero_image_box {
+    display: none;
+  }
+
+  .hero_text_box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero_p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .hero {
+    margin-top: 100px;
+  }
+}
+
+
+/* Course */
+.course {
+  text-align: center;
+  padding-top: 76px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.course h5{
+  color: rgba(0, 0, 0, 0.55);
+  margin-bottom: 55px;
+}
+
+.course .repon {
+  position: absolute;
+  top: calc(100% + 15px);
+  left: 0;
+  width: 100% !important;
+}
+
+.course svg {
+  fill: #b188feb3;
+}
+
+.price_box {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #b188feb3;
+  padding: 40px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 9px;
+}
+
+.price_box div {
+  width: calc(100% / 3)
+}
+
+.buy_btn {
+  background-color: var(--main-color);
+  border-radius: 33px;
+  padding: 15px 20px;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.buy_btn:hover {
+  color: #fff;
+}
+
+.buy_btn_box {
+  border-left: 1px solid #b188feb3;
+  border-right: 1px solid #b188feb3;
+  padding: 0 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy_btn_box p {
+  margin: 0 !important;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.55);;
+}
+.buy_btn_box h2 {
+  /* font-size: 14px; */
+  font-weight: 700;
+}
+
+.price_box li {
+  padding: 10px;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1lrr7yx-MuiSvgIcon-root:hover {
+  
+}
+
+@media (max-width: 768px){
+  .price_box {
+    flex-direction: column !important;
+    padding: 40px;
+  }
+  .price_box div {
+    width: 100%;
+  }
+  .buy_btn_box {
+    border: none;
+    order: 1;
+    border-bottom: 1px solid #b188feb3;
+    padding-bottom: 20px;
+  }
+  .g_one {
+    order: 3;
+  }
+
+  .g_two {
+    order: 2;
+  }
+  .course {
+    margin-bottom: 75px;
+  }
+  .d_padd {
+    padding-bottom: 0 !important;
+  }
+  .u_padd {
+    padding-top: 0 !important;
+  }
+  .m_padd{
+    padding-top: 40px !important;
+  }
+}
+
+/* Trading */
+#trading {
+  padding-top: 76px;
 }
