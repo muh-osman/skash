@@ -1,9 +1,11 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavBar from './component/NavBar';
 import Container from 'react-bootstrap/Container';
 import Hero from './component/Hero';
 import Course from './component/Course';
 import Trading from './component/Trading';
+import Youtube from './component/Youtube';
+import Social from './component/Social';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -15,7 +17,10 @@ function App() {
       <Hero/>
       <Course/>
       <Trading/>
+      <Youtube/>
+      <Social/>
     </Container>
+    <Footer/>
     </>
   );
 }
