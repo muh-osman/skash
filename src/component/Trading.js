@@ -19,7 +19,7 @@ const Trading = () => {
                     <li><DoneOutlineIcon sx={{ color: green[500] }}/> توصيات تداول من كبرى البنوك العالمية</li>
                     <li><DoneOutlineIcon sx={{ color: green[500] }}/> مكافآت للمتداول النشط مثل استرداد النقود وتنبيهات التداول</li>
                 </ul>
-                <a className="xtb" href="https://geolink.xtb.com/SH4HU">تداول الآن</a>
+                <a className="xtb" href="https://geolink.xtb.com/SH4HU" target="_blank" rel="noopener noreferrer">تداول الآن</a>
             </div>
 
             <div className="laptop_img">

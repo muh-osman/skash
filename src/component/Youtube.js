@@ -21,7 +21,7 @@ const Youtube = () => {
                 <video autoPlay muted loop id="myVideo">
                     <source src={video} type="video/mp4" />
                 </video>
-                <a href="https://www.youtube.com/@Skash_1/featured">المزيد</a>
+                <a href="https://www.youtube.com/@Skash_1/featured" target="_blank" rel="noopener noreferrer">المزيد</a>
             </div>
             
         </div>

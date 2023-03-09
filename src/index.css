@@ -197,8 +197,14 @@ body {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.55);;
 }
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  cursor: pointer;
+  width:20px;
+  height:20px;
+}
+
 .buy_btn_box h2 {
-  /* font-size: 14px; */
   font-weight: 700;
 }
 
@@ -398,6 +404,52 @@ section#contact {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+.crown {
+  position: absolute;
+  z-index: 99;
+  top: -16px;
+  right: -19px;
+  fill: #FFD700;
+  width: 44px;
+  transform: rotate(45deg);
+}
+
+.vip_lay {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: .3s;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: transparent;
+  border-radius: 13px;
+  z-index: 55;
+}
+
+#contact .box:hover .vip_lay {
+  top: 0;
+  height: 100%;
+}
+
+.vip_lay ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.vip_lay ul li{
+  padding: 5px 0;
+  font-weight: 700;
 }
 
 #contact .box:hover {

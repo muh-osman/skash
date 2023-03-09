@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <section className="footer">
         <p><span><AiOutlineCopyrightCircle style={AiOutlineCopyrightCircles}/></span> 2023 All rights reserved Skash.</p>
-        <p>Made with <span> &nbsp; <FaHeart style={FaHearts}/> &nbsp; </span> by&nbsp;<a href="https://github.com/muh-osman">Muh-Osman</a></p>
+        <p>Made with <span> &nbsp; <FaHeart style={FaHearts}/> &nbsp; </span> by&nbsp;<a href="https://github.com/muh-osman" target="_blank" rel="noopener noreferrer">Muh-Osman</a></p>
     </section>
   )
 }
