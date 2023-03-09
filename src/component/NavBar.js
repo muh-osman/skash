@@ -17,7 +17,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
-        <img alt="Skash logo" src={logo} height="60" className="d-inline-block align-top"/>
+        <img alt="Skash logo" src={logo} height="60" className="d-inline-block align-top logo_img"/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

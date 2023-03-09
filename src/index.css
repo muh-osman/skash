@@ -17,6 +17,10 @@ body {
   background-color: transparent;
 }
 
+.logo_img {
+  cursor: pointer;
+}
+
 .nav-link {
   padding: 10px 20px;
   margin-right: 20px;
@@ -428,13 +432,16 @@ section#contact {
 /* Footer */
 .footer {
   width: 100%;
-  background-color: #eee;
+  background-color: #f5f5f7;
   margin: 0 !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 99px;
   flex-direction: column;
+  color: #6e6e73;
+  font-size: 14px;
+  padding-top: 5px;
+
 }
 
 .footer p{
@@ -446,7 +453,7 @@ section#contact {
 }
 
 .footer span {
-  font-size: 24px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;

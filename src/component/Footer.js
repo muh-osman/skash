@@ -2,7 +2,7 @@ import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FaHeart } from "react-icons/fa";
 
 const Footer = () => {
-    const AiOutlineCopyrightCircles = { color: "#212529", fontSize: ".7em" }
+    const AiOutlineCopyrightCircles = { color: "#6e6e73", fontSize: ".7em" }
     const FaHearts = { color: "red", fontSize: ".7em" }
   return (
     <section className="footer">
