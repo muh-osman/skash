@@ -2,7 +2,7 @@ import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import Avatar from '@mui/material/Avatar';
 import face from "../assets/face.jpg"
 import { styled } from '@mui/material/styles';
@@ -16,7 +16,7 @@ const Social = () => {
     const FaInstagrams = { color: "#833AB4", fontSize: "2.5em" }
     const FaYoutubes = { color: "#FF0000", fontSize: "2.5em" }
     const FaTelegrams = { color: "#229ED9", fontSize: "2.5em" }
-    const AiOutlineMails = { color: "rgba(0, 0, 0, 0.5)", fontSize: "2.5em" }
+    const MdEmails = { color: "#183153", fontSize: "2.5em" }
 
     const StyledBadge = styled(Badge)(({ theme }) => ({
         '& .MuiBadge-badge': {
@@ -97,7 +97,7 @@ const Social = () => {
             </a>
 
             <a href="mailto:skash.contact@gmail.com" className="box">
-                <AiOutlineMail style={AiOutlineMails}/>
+                <MdEmail style={MdEmails}/>
                 <span className="number email">skash.contact@gmail.com</span>
                 <span className="text">Email</span>
             </a>
