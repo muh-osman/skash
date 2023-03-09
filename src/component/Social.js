@@ -1,7 +1,7 @@
 import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Avatar from '@mui/material/Avatar';
 import face from "../assets/face.jpg"
@@ -11,11 +11,12 @@ import Badge from '@mui/material/Badge';
 
 
 
+
 const Social = () => {
     const FaTiktoks = { color: "#000000", fontSize: "2.5em" }
     const FaInstagrams = { color: "#833AB4", fontSize: "2.5em" }
     const FaYoutubes = { color: "#FF0000", fontSize: "2.5em" }
-    const FaTelegrams = { color: "#229ED9", fontSize: "2.5em" }
+    const FaTelegramPlanes = { color: "#229ED9", fontSize: "2.5em" }
     const MdEmails = { color: "#183153", fontSize: "2.5em" }
 
     const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -69,7 +70,7 @@ const Social = () => {
                 <span className="text">YouTube</span>
             </a>
             <a href="https://t.me/Skash_Channel" className="box" target="_blank" rel="noopener noreferrer">
-                <FaTelegram style={FaTelegrams}/>
+                <FaTelegramPlane style={FaTelegramPlanes}/>
                 <span className="number">+50K</span>
                 <span className="text">Telegram</span>
             </a>
