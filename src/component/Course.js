@@ -19,6 +19,7 @@ const Course = () => {
           </svg>
         </span>
       </section>
+      
       <Price />
     </>
   );
