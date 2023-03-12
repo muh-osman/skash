@@ -9,7 +9,7 @@ import Footer from './component/Footer';
 
 import ReactGA from "react-ga"
 
-ReactGA.initialize("G-BHE87LE8LJ")
+ReactGA.initialize("https://skash.netlify.app/")
 
 
 function App() {
