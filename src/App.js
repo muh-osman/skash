@@ -7,9 +7,9 @@ import Youtube from './component/Youtube';
 import Social from './component/Social';
 import Footer from './component/Footer';
 
-import ReactGA from "react-ga"
+import ReactGA from "react-ga4"
 
-ReactGA.initialize("UA-260361219-1")
+ReactGA.initialize("G-TFFKZ3PWRY")
 
 
 function App() {
