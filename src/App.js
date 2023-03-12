@@ -9,7 +9,7 @@ import Footer from './component/Footer';
 
 import ReactGA from "react-ga4"
 
-ReactGA.initialize("G-TFFKZ3PWRY")
+ReactGA.initialize("G-X0V127YVW4")
 
 
 function App() {
