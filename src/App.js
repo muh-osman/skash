@@ -7,12 +7,16 @@ import Youtube from './component/Youtube';
 import Social from './component/Social';
 import Footer from './component/Footer';
 
+import ReactGA from "react-ga"
+
+ReactGA.initialize("UA-260343798-1")
+
 
 function App() {
   return (
     <>
     <NavBar/>
-    
+
     <Container>
       <Hero/>
       <Course/>
@@ -20,6 +24,7 @@ function App() {
       <Youtube/>
       <Social/>
     </Container>
+
     <Footer/>
     </>
   );
