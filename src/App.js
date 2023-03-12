@@ -9,7 +9,7 @@ import Footer from './component/Footer';
 
 import ReactGA from "react-ga"
 
-ReactGA.initialize("G-NQVVG8XVG6")
+ReactGA.initialize("UA-260361219-1")
 
 
 function App() {
